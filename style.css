@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'futurateebold';
+    src: url('font/futuratee-bold-webfont.woff2') format('woff2'),
+         url('font/futuratee-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futurateemedregular';
+    src: url('font/fe11004t-webfont.woff2') format('woff2'),
+         url('font/fe11004t-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futurateeregular';
+    src: url('font/fe11003t-webfont.woff2') format('woff2'),
+         url('font/fe11003t-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("images/waste.jpg");
+  background-size: cover;
+  font-family: 'futurateeregular', 'Futura', sans-serif;
+  font-size: 1.2vw;
+  color: black;
+  overflow: hidden;
+}
+
+@media (max-width: 820px) {
+  body {
+    background-size: auto 100vh;
+    font-size: 3vw;
+  }
+}
+
+h1 {
+  color: white;
+  font-family: 'futurateemedregular', 'Futura', sans-serif;
+  font-size: 4.5vw;
+  letter-spacing: 1.8vw;
+}
+
+@media (max-width: 820px) {
+  h1 {
+    font-size: 10vw;
+  }
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #97c39a;
+}
+
+a:active, a:hover {
+  text-decoration: none;
+  color: #fb422b;
+}
+
+.container {
+  margin: 11vw auto 0 auto;
+  width: 80vw;
+  text-align: center;
+}
+
+@media (max-width: 820px) {
+  .container {
+    margin: 17vw auto 0 auto;
+  }
+}
+
+.card {
+  padding: 0;
+}
+
+.right-aligned {
+  letter-spacing: 0.2vw;
+  font-size: 1.5vw;
+  float: right;
+}
+
+@media (max-width: 820px) {
+  .right-aligned {
+    letter-spacing: 0.4vw;
+    font-size: 3.2vw;
+  }
+}
+
+#description {
+  margin: 5.2vw auto 0 auto;
+  padding: 2.4vw 2.2vw 2vw 2.2vw;
+  width: 44vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.2vw;
+  text-align: left;
+  line-height: 2vw;
+  letter-spacing: 0.05vw;
+}
+
+@media (max-width: 820px) {
+  #description {
+    padding: 5vw 4vw 3.6vw 4vw;
+    width: 50vw;
+    line-height: 3.5vw;
+    letter-spacing: 0.1vw;
+  }
+}
